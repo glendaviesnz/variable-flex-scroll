@@ -8,4 +8,4 @@ Todo:
 * Add tests
 * Remove dependency on ng-lodash (only used for debouncing resize and mutation watchers)
 
-As mentioned above - this is just a proof of concept at this stage, and for the specific use case of adding scrolling to variable height flex panels. There is no intention at this stage to extend it to be a fully functional custom scroller for all use cases.
+As mentioned above - this is just a proof of concept at this stage, and for the specific use case of adding a custom scrollbar to variable height flex items. There is no intention at this stage to extend it to be a fully functional custom scroller for all use cases.
