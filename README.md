@@ -4,6 +4,6 @@ A custom scrollbar for variable height flex items - background info can be found
 This is a proof of concept Angular directive to apply a custom scrollbar to variable height flex items using native OS scrolling. 
 
 Todo: 
-Tidy up and move bulk of functionality to ES6 module and make the directive a wrapper only
-Add tests
-Remove dependency on ng-lodash (only used for debouncing resize and mutation watchers)
+* Tidy up and move bulk of functionality to ES6 module and make the directive a wrapper only
+* Add tests
+* Remove dependency on ng-lodash (only used for debouncing resize and mutation watchers)
