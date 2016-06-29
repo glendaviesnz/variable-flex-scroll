@@ -1,0 +1,70 @@
+.scroll-wrapper {
+    overflow:hidden;
+    position: relative;
+}
+
+.scroll-container {
+    position: absolute;
+    left: 0;
+    overflow-y: scroll;
+}
+
+.scroll-bar {
+  position            : absolute;
+  right               : 0.4rem;
+  background          : rgba(0, 0, 0, .1);
+  width               : 0.8rem;
+  border-radius       : 4px;
+  top                 : 0;
+  z-index             : 2;
+  cursor              : pointer;
+  opacity: 0;
+  transition: opacity 0.25s linear;
+  
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.scroll-container.mac-mozilla {
+    padding-right: 16px;
+    .scroll-bar {
+        right: 2rem;
+    }
+}
+
+.scrollbar-hidden {
+  display: none;
+}
+
+.scroll-container:hover .scroll-bar {
+  opacity: 1;
+}
+
+.scrollbar-grabbed {
+  user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.scroll-wrapper::before,.scroll-wrapper::after{
+	position:absolute;
+	content:'';
+	left:0;
+	right:0;
+	height:8px;
+}
+
+.scroll-wrapper.scroll-up::before{
+	top:0;
+	.mixin-gradient-shadow-top;
+}
+
+.scroll-wrapper.scroll-down::after{
+	bottom:0;
+	.mixin-gradient-shadow-bottom;
+}
