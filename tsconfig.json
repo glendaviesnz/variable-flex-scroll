@@ -1,0 +1,9 @@
+{
+    "files": [
+        "src/customScroll.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5"
+    }
+}
