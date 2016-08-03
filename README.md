@@ -1,4 +1,6 @@
 # variable-flex-scroll
+Please Note: I am currently playing around with converting this to a more reusable module - so in flux - but JS code in dist folder should work.
+
 A custom scrollbar for variable height flex items - background info can be found at http://caughtexceptions.blogspot.co.nz/2016/06/custom-scrollbar-for-variable-height.html and a working demo at https://plnkr.co/edit/p1ps6Nx0vyldiXVv4xlf?p=preview
 
 This is a proof of concept Angular directive to apply a custom scrollbar to variable height flex items using native OS scrolling. 
