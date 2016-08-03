@@ -1,0 +1,22 @@
+{
+  "name": "variable-flex-scroll",
+  "version": "0.1.0",
+  "description": "Custom scroll for variable height flex containers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glendaviesnz/variable-flex-scroll.git"
+  },
+  "author": "@glendaviesnz",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/glendaviesnz/variable-flex-scroll/issues"
+  },
+  "homepage": "https://github.com/glendaviesnz/variable-flex-scroll#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
