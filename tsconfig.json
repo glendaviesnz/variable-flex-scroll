@@ -1,9 +1,10 @@
 {
     "files": [
-        "src/customScroll.ts"
+        "src/customScroll.ts", "src/customScrollAngular1.ts"
     ],
     "compilerOptions": {
         "noImplicitAny": true,
-        "target": "es5"
+        "target": "es5",
+        "module": "commonjs"
     }
 }
